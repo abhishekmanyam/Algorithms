@@ -1,0 +1,12 @@
+0. The following algorithms can be made stable.
+	a. mergesort (already stable)
+	b. selection sort
+	c. insertion sort	
+
+
+debriefing 
+
+1. I spent 6 hrs on this assignment
+2. I feel that the difficulty level has increased 
+3. I discussed it with friends and tried to solve the problem
+4. I felt I understood 90% of the concept. 
