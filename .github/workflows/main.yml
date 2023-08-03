@@ -22,7 +22,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    
-      - name: Deploy package to digitalocean
+
+      - name: Deploy package to docker
+        uses: appleboy/ssh-action@master
+        with:
+          host: 129.146.112.93
+          port: 22
+          username: ubuntu
+          key: ${{ secrets.DEPLOY_KEY }}
           script: |
-            git pull -f 
+            git pull -f
