@@ -32,3 +32,4 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           script: |
             git pull -f
+          working-directory: /Desktop/automation/Algorithms
