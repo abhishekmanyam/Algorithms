@@ -25,10 +25,10 @@ jobs:
 
       - name: Deploy package to docker
         with:
-          host: 129.146.112.93
-          port: 22
-          username: ubuntu
-          key: ${{ secrets.DEPLOY_KEY }}
-          run: |
+            host: 129.146.112.93
+            port: 22
+            username: ubuntu
+            key: ${{ secrets.DEPLOY_KEY }}
+      - run: |
             git pull -f
-          working-directory: /Desktop/automation/Algorithms
+        working-directory: /Desktop/automation/Algorithms
