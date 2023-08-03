@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 
       - name: Deploy package to docker
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
         with:
               host: 129.146.112.93
               port: 22
